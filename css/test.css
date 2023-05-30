@@ -1,0 +1,64 @@
+.forecasts-main {
+  margin-left: 0px;
+  margin-top: -50px;
+  width: 100% !important;
+}
+.fantom {
+  display: flex;
+  margin-top: 30px;
+}
+.tabs-content {
+  margin-left: 0;
+}
+.icon-forecast {
+  width: 130px;
+  height: 130px;
+  margin-top: 5px;
+  margin-left: -275px;
+  text-align: center;
+}
+.error-forec {
+  width: 1200px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fff;
+}
+.error-forec__text {
+  padding: 30px 40px;
+  font-size: 22px;
+  color: rgba(212, 7, 7, 0.781);
+  margin: 0 auto;
+}
+
+@media (width < 700px) {
+  .error-forec__text {
+    font-size: 18px;
+  }
+}
+@media (width < 585px) {
+  .error-forec__text {
+    padding: 20px 25px;
+    font-size: 15px;
+  }
+  .error-forec {
+    height: 60px;
+  }
+}
+@media (width < 470px) {
+  .error-forec__text {
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+  .error-forec {
+    height: 60px;
+  }
+}
+@media (width < 421px) {
+  .error-forec__text {
+    padding: 13px 15px;
+    font-size: 13px;
+  }
+  .error-forec {
+    height: 40px;
+  }
+}

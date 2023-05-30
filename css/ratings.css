@@ -1,0 +1,98 @@
+.container-2__button-1 {
+  background: none;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 11px 10px;
+  border-radius: 20px;
+  border-color: rgba(128, 128, 128, 0.103);
+  border-style: solid;
+  color: rgb(92, 91, 91);
+}
+.container-2__button-2 {
+  background: none;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 11px 18px;
+  border-radius: 20px;
+  border-color: rgba(128, 128, 128, 0.103);
+  border-style: solid;
+  color: rgb(92, 91, 91);
+}
+.container-2__button-3 {
+  background: none;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 11px 15px;
+  border-radius: 20px;
+  border-color: rgba(128, 128, 128, 0.103);
+  border-style: solid;
+  color: rgb(92, 91, 91);
+}
+
+.heading {
+  font-size: 30px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.heading::after {
+  content: url(../img/Слой_x0020_1.svg);
+  margin-top: -3px;
+}
+
+.container-2__button-1:hover {
+  color: #fcc341;
+  border-color: #fcc341;
+}
+
+.show {
+  display: block;
+}
+
+.container-2__button-2:hover {
+  color: #fcc341;
+  border-color: #fcc341;
+}
+.container-2__button-3:hover {
+  color: #fcc341;
+  border-color: #fcc341;
+}
+
+.btn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.ratings-last-text-main-1 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 70px;
+}
+
+.ratings-last-text-main-1::after {
+  content: url(../img/Слой_x0020_1.svg);
+  margin-top: -7px;
+}
+@media (width < 700px) {
+  .ratings-last-text-main-1 {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .item__onlinesport {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}

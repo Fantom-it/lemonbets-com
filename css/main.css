@@ -1,0 +1,70 @@
+.form-main {
+  position: absolute;
+}
+
+.form__input-main {
+  margin-top: 23px;
+  margin-left: 1390px;
+  width: 370px;
+  height: 24px;
+  border: none;
+  outline: none;
+  color: #000000;
+  background: #d0d0d0;
+  border-radius: 10px;
+  padding: 30px 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form__button-main {
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/Search.svg);
+  width: 56px;
+  height: 40px;
+  right: 5px;
+  margin-top: 39px;
+}
+
+.banner-2-main {
+  position: absolute;
+  margin-left: 1391px;
+  margin-top: 804px;
+}
+
+.footer-main {
+  width: 1920px;
+  height: 312px;
+  margin-top: 30px;
+
+  background: #fff;
+}
+
+.item__main-1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+ /* margin-left: 160px; */
+}
+.item__main-2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.container-9-main {
+  margin-top: 1600px;
+  margin-left: 1391px;
+}
+
+.item__applications_bookmakers-main {
+  margin-top: 1530px;
+  margin-left: 1391px;
+}
