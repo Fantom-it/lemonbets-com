@@ -1,4 +1,4 @@
-/*.owl-carousel .owl-item {
+.owl-carousel .owl-item {
   min-height: 1px;
   float: left;
   -webkit-backface-visibility: hidden;
@@ -74,7 +74,7 @@
 }
 .owl-carousel .owl-animated-out {
   z-index: 1;
-}*/
+}
 .owl-carousel .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
