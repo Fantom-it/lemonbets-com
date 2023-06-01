@@ -17,6 +17,11 @@
   margin-left: -275px;
   text-align: center;
 }
+@media (width < 900px) {
+  .icon-forecast {
+    display: none;
+  }
+}
 .error-forec {
   width: 1200px;
   height: 80px;
