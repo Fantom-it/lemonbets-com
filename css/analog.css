@@ -8443,7 +8443,7 @@ textarea {
   display: block;
   width: 100%;
   height: 100%;
-  height: 80px;
+  height: 150px;
   max-width: inherit;
   -o-object-fit: cover;
   object-fit: cover;
@@ -8451,13 +8451,18 @@ textarea {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+@media (width < 700px) {
+  .forecast-sport-item img {
+    height: 250px;
+  }
+}
 .forecast-sport-item .caption {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  /* height: 100%; */
-  height: 50px;
+  height: 100%;
+  /* height: 400px; */
   z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
