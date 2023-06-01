@@ -8267,12 +8267,14 @@ textarea {
   .forecast-sport-items .forecast-sport-item {
     margin-top: 15px;
     width: calc((100% / 3) - ((15px * (3 - 1)) / 3));
+   
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .forecast-sport-items .forecast-sport-item {
     margin-top: 15px;
     width: calc((100% / 2) - ((15px * (2 - 1)) / 2));
+    
   }
 }
 @media (min-width: 0px) and (max-width: 767px) {
@@ -8396,9 +8398,15 @@ textarea {
 .forecast-sport-item .image {
   width: 100%;
   height: 100%;
+  height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+}
+@media (width > 920px) {
+  .forecast-sport-item .image {
+    height: 150px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .forecast-sport-item .image {
