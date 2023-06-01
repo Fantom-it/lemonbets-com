@@ -656,8 +656,30 @@ svg:hover {
 .app-container {
   background: #fff;
   width: 1200px;
+  width: 100%;
   height: 1550px;
   margin-top: 60px;
+}
+@media (width < 755px) {
+  .app-container {
+    height: 4200px !important;
+  }
+}
+.app-container__colon2 {
+  display: none;
+}
+.app-container__colon3 {
+}
+@media (width < 1485px) {
+  .app-container {
+    height: 2200px;
+  }
+  .app-container__colon3 {
+    display: none !important;
+  }
+  .app-container__colon2 {
+    display: block !important;
+  }
 }
 .app-container__text {
   font-size: 20px;
@@ -671,6 +693,22 @@ svg:hover {
   height: 306px;
   background: #f5f5f5;
 }
+@media (width < 1600px) {
+  .app-container__list__main {
+    width: 340px;
+    height: 306px;
+    background: #f5f5f5;
+  }
+}
+@media (width < 755px) {
+  .app-container__list__main {
+    width: 340px;
+    /* width: 100%; */
+    height: 306px;
+    background: #f5f5f5;
+    margin: 0 auto;
+  }
+}
 .app-container__list {
   list-style-type: none;
   padding: 0px 33px;
@@ -678,6 +716,21 @@ svg:hover {
   margin-bottom: 0;
   display: flex;
   gap: 28px;
+}
+@media (width < 755px) {
+  .app-container__list {
+    display: block !important;
+    list-style-type: none;
+    padding: 0px 33px;
+    margin-top: 44px;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    display: flex;
+    gap: 28px;
+  }
+  .app-container__list__li {
+    padding-bottom: 20px;
+  }
 }
 .app-container__list__li {
 }
@@ -700,6 +753,27 @@ svg:hover {
   background: #fff;
   margin-top: 16px;
   margin-left: 20px;
+}
+@media (width < 1600px) {
+  .app-container__list__bookm,
+  .app-container__list__bookm-1xctabka,
+  .app-container__list__bookm-ubet,
+  .app-container__list__bookm-fonbet,
+  .app-container__list__bookm-leon,
+  .app-container__list__bookm-ggbet,
+  .app-container__list__bookm-mostbet,
+  .app-container__list__bookm-melbet,
+  .app-container__list__bookm-winline,
+  .app-container__list__bookm-betcity,
+  .app-container__list__bookm-marafonbet,
+  .app-container__list__bookm-bwin {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    margin-top: 16px;
+    margin-left: 20px;
+  }
 }
 
 .app-container__list__bookm {
@@ -745,6 +819,30 @@ svg:hover {
   text-align: center;
   margin-top: 163px;
   background: #fcc341;
+  display: flex;
+}
+@media (width < 1600px) {
+  .app-container__list__main__div {
+    position: absolute;
+    width: 340px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 163px;
+    background: #fcc341;
+  }
+}
+@media (width < 755px) {
+  .app-container__list__main__div {
+    position: absolute;
+    width: 340px;
+    /* width: 87%; */
+    height: 142px;
+    padding: 0 !important;
+    text-align: center;
+    margin-top: 163px;
+    background: #fcc341;
+    /* display: table-cell; */
+  }
 }
 .app-container__list__main__div__text {
   display: inline-block;
@@ -754,6 +852,26 @@ svg:hover {
   border-radius: 3px;
   background: #000;
   color: #fff;
+}
+@media (width < 755px) {
+  .app-container__list__main__div__text {
+    margin-top: 30px !important;
+    margin-left: 24px !important;
+  }
+}
+
+@media (width < 1600px) {
+  .app-container__list__main__div__text {
+    display: inline-block;
+    padding: 41px 146px;
+    width: 292px;
+    height: 82px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    margin-left: -5px;
+  }
 }
 .app-container__list__main__div__text__p {
   white-space: nowrap;
@@ -846,6 +964,7 @@ svg:hover {
 @media (width < 600px) {
   .apps-page-main {
     margin-top: 15px;
+    height: 650px;
   }
 }
 .apps-page-main__info {
